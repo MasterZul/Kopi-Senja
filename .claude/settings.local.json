@@ -3,7 +3,10 @@
     "allow": [
       "Bash(taskkill /F /IM node.exe)",
       "Bash(netstat -ano)",
-      "Bash(taskkill *)"
+      "Bash(taskkill *)",
+      "Bash(git checkout *)",
+      "Bash(git push *)",
+      "Bash(gh pr *)"
     ]
   }
 }
