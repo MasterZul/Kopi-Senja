@@ -4,12 +4,16 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #F8EDD9;
   color: #3D1F0D;
   font-family: var(--font-nunito), sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
 }
 
 /* Custom scrollbar */
